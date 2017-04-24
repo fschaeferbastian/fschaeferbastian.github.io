@@ -5,9 +5,8 @@ body {
 #slide1, #slide2, #slide3 {width: 100%;}
 
 #slide1{
-	background: 50% 0 no-repeat fixed;
 	background-size: cover;
-	height: 600px;
+	height: 800px;
 	margin: 0;
 	padding: 0px 0 55px 0;
 }
@@ -54,6 +53,7 @@ z-index: 7;
 	margin: 0px 5px;
 	display: inline-block;
 	cursor: pointer;
+	color: white;
 }
 
 

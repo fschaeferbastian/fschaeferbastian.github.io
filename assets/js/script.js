@@ -13,5 +13,16 @@ $(document).ready(function(){
 
 $("#bigname").fadeIn(1000);
 
-$("ul.image li").hover
+$("#portfolio-button").hover(function(e){
+	$('#portfolio-button') .css ('color', " #B0BEC5" )
+});
+$("#resume-button").hover(function(e){
+	$('#resume-button') .css ('color', " #B0BEC5" )
+});
+$("#about-button").hover(function(e){
+	$('#about-button') .css ('color', " #B0BEC5" )
+});
+$("#contact-button").hover(function(e){
+	$('#contact-button') .css ('color', " #B0BEC5" )
+});
 });
