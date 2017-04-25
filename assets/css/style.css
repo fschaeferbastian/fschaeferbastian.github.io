@@ -70,8 +70,11 @@ z-index: 7;
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background: url(../img/frida3.jpg);
+	background: url(../img/frida3.jpg) no-repeat center center fixed;
 	background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .overlay {
