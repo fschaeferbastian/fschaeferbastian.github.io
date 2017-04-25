@@ -25,4 +25,16 @@ $("#about-button").hover(function(e){
 $("#contact-button").hover(function(e){
 	$('#contact-button') .css ('color', " #B0BEC5" )
 });
+$("#contact-button").mouseleave(function(e){
+	$('#contact-button') .css ('color', " white" )
+});
+$("#about-button").mouseleave(function(e){
+	$('#about-button') .css ('color', " white" )
+});
+$("#resume-button").mouseleave(function(e){
+	$('#resume-button') .css ('color', " white" )
+});
+$("#portfolio-button").mouseleave(function(e){
+	$('#portfolio-button') .css ('color', " white" )
+});
 });
